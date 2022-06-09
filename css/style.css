@@ -33,11 +33,39 @@ body {
     font-size: 20px;
 }
 
-@keyframes shake{
-    to{
-        transform: translateY(50deg);
-    } from{
-        transform: translateY(-50deg);
+@keyframes shake1{
+    0%{
+        transform: translateY(0px);
+    } 
+    25%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+     75%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes shake2{
+    0%{
+        transform: translateY(0px);
+    } 
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+     75%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
     }
 }
 
